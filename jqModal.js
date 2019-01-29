@@ -276,7 +276,7 @@
 			// close modal if the esc key is pressed and closeOnEsc is set to true
 			m.unbind("keydown",$.jqm.closeOnEscFunc);
 			if(o.closeOnEsc) {
-				m.attr("tabindex", 0).bind("keydown",$.jqm.closeOnEscFunc).focus();
+				m.attr("tabindex", 0).bind("keydown",$.jqm.closeOnEscFunc);
 			}
 		}
 
